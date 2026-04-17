@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Personal Identity Schema",
+  "description": "A machine-readable specification for personal identity. Designed to constrain LLM generation for consistent, authentic output across tools and contexts.",
+  "version": "0.1.0",
+  "type": "object",
+  "layers": [
+    {
+      "layer": 1,
+      "name": "Identity",
+      "description": "Who you are at the core. The irreducible truth that survives every pivot, rebrand, and market shift."
+    },
+    {
+      "layer": 2,
+      "name": "Positioning",
+      "description": "Where you stand relative to everyone else. Not what you do — what only you do."
+    },
+    {
+      "layer": 3,
+      "name": "Strategy",
+      "description": "How you win. The decision logic that connects identity to action."
+    },
+    {
+      "layer": 4,
+      "name": "Story",
+      "description": "The narrative that makes the identity legible. Not fabricated — excavated from what actually happened."
+    },
+    {
+      "layer": 5,
+      "name": "Voice",
+      "description": "How you sound when you're being honest. The linguistic fingerprint that no prompt can fake."
+    },
+    {
+      "layer": 6,
+      "name": "Worldview",
+      "description": "What you believe to be true about the world. The convictions that shape every decision before you notice."
+    },
+    {
+      "layer": 7,
+      "name": "Principles",
+      "description": "The lines you won't cross. The constraints that make the identity durable under pressure."
+    },
+    {
+      "layer": 8,
+      "name": "Evidence",
+      "description": "Proof. Not claims — artifacts. The things you've done that make everything above undeniable."
+    }
+  ]
+}
